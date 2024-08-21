@@ -3,3 +3,5 @@
 -- Add any additional options here
 
 vim.opt.cursorline = false
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
