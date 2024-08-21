@@ -1,5 +1,3 @@
-# /Users/aube/.config/tmuxinator/absoluters.yml
-
 name: absoluters
 root: ~/ws/gitlab.com/baby-sharks/absolute/mentorship
 
@@ -7,5 +5,4 @@ startup_window: editor
 
 windows:
   - editor: vim .
-  - terminal: 
-  - git: lazygit
+  - terminal:

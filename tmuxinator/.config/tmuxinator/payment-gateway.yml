@@ -1,5 +1,3 @@
-# /Users/aube/.config/tmuxinator/payment-gateway.yml
-
 name: payment-gateway
 root: ~/ws/tmp/pgw-go
 
@@ -7,5 +5,4 @@ startup_window: editor
 
 windows:
   - editor: vim .
-  - terminal: 
-  - git: lazygit
+  - terminal:
