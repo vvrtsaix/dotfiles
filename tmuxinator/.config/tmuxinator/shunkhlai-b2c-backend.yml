@@ -1,0 +1,11 @@
+# /Users/aube/.config/tmuxinator/shunkhlai-b2c-backend.yml
+
+name: shunkhlai-b2c-backend
+root: ~/ws/github.com/zerotechmn/shunkhlai-b2c-backend
+
+startup_window: editor
+
+windows:
+  - editor: vim .
+  - terminal: 
+  - git: lazygit
