@@ -7,12 +7,18 @@ plugins=(
     zsh-autosuggestions
     zsh-syntax-highlighting
     you-should-use
-    zsh-bat
 )
 
 source $ZSH/oh-my-zsh.sh
 
+eval "$(zoxide init zsh)"
+alias cd="z"
+
 alias vim="nvim"
+export EDITOR="nvim"
 
 alias mux="tmuxinator"
 alias tmuxkill="tmux kill-session"
+
+alias cat="$(which bat) --paging=never"
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
