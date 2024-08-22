@@ -22,3 +22,5 @@ alias tmuxkill="tmux kill-session"
 
 alias cat="$(which bat) --paging=never"
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+
+source <(fzf --zsh)
