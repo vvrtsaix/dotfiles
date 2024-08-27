@@ -1,0 +1,9 @@
+name: sg-web
+root: ~/ws/github.com/zerotechmn
+
+startup_window: frontend
+
+windows:
+  - frontend: cd sg-holding-web-frontend && vim .
+  - backend: cd sg-holding-web-backend && vim .
+  - terminal:
