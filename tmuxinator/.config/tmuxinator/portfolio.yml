@@ -1,0 +1,8 @@
+name: portfolio
+root: ~/ws/github.com/vvrtsaix/portfolio
+
+startup_window: editor
+
+windows:
+  - editor: vim .
+  - terminal:
