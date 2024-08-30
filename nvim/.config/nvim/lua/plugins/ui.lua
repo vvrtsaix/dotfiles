@@ -1,12 +1,13 @@
 return {
 	{
 		"lukas-reineke/indent-blankline.nvim",
-		opts = {
-			indent = {
-				char = "",
-				tab_char = "",
-			},
-		},
+		enabled = false,
+		-- opts = {
+		-- 	indent = {
+		-- 		char = "",
+		-- 		tab_char = "",
+		-- 	},
+		-- },
 	},
 	{
 		"akinsho/bufferline.nvim",
