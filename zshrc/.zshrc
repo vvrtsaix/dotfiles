@@ -14,6 +14,8 @@ source $ZSH/oh-my-zsh.sh
 eval "$(zoxide init zsh)"
 alias cd="z"
 
+alias lg="lazygit"
+
 alias vim="nvim"
 export EDITOR="nvim"
 
