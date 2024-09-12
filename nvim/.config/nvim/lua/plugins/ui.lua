@@ -11,7 +11,6 @@ return {
 				show_buffer_close_icons = false,
 				separator_style = { "|", "|" },
 				indicator = { style = "none" },
-				offsets = {},
 			},
 			highlights = {
 				separator = { fg = "#434C5E" },
