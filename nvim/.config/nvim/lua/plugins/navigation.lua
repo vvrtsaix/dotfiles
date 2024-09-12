@@ -1,3 +1,1 @@
-return {
-  { "alexghergh/nvim-tmux-navigation", opts = {} },
-}
+return { { "alexghergh/nvim-tmux-navigation", opts = {} } }

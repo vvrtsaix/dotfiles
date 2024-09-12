@@ -1,14 +1,5 @@
 return {
-	{
-		"lukas-reineke/indent-blankline.nvim",
-		enabled = false,
-		-- opts = {
-		-- 	indent = {
-		-- 		char = "",
-		-- 		tab_char = "",
-		-- 	},
-		-- },
-	},
+	{ "lukas-reineke/indent-blankline.nvim", enabled = false },
 	{
 		"akinsho/bufferline.nvim",
 		opts = {
@@ -75,12 +66,9 @@ return {
 				},
 				twilight = { enabled = true },
 				gitsigns = { enabled = false },
-				tmux = { enabled = false },
+				tmux = { enabled = true },
 				todo = { enabled = false },
-				kitty = {
-					enabled = false,
-					font = "+4",
-				},
+				kitty = { enabled = false, font = "+2" },
 			},
 		},
 	},

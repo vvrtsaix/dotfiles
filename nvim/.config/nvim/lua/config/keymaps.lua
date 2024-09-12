@@ -1,6 +1,15 @@
--- Keymaps are automatically loaded on the VeryLazy event
--- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
--- Add any additional keymaps here
+vim.keymap.set({ "n", "v" }, "<Space>", "<Nop>", { silent = true })
+
+vim.keymap.set("n", "x", '"_x', { noremap = true, silent = true, desc = "Delete character without yanking" })
+vim.keymap.set("v", "p", '"_dP', { noremap = true, silent = true, desc = "Keep last yanked when pasting" })
+
+-- Vertical scroll and center
+vim.keymap.set("n", "<C-d>", "<C-d>zz", { noremap = true, silent = true, desc = "Scroll down and center" })
+vim.keymap.set("n", "<C-u>", "<C-u>zz", { noremap = true, silent = true, desc = "Scroll up and center" })
+
+-- Find and center
+vim.keymap.set("n", "n", "nzzzv", { noremap = true, silent = true, desc = "Find next and center" })
+vim.keymap.set("n", "N", "Nzzzv", { noremap = true, silent = true, desc = "Find previous and center" })
 
 vim.keymap.set("n", "<leader>uz", require("zen-mode").toggle, { desc = "Toggle Zen Mode" })
 

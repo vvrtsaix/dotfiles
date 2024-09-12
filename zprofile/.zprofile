@@ -9,4 +9,8 @@ export FLUTTER_HOME="$HOME/development/flutter"
 export GOPATH="$HOME/go"
 export ANDROID_HOME="$HOME/Library/Android/sdk"
 
-export PATH="$ANDROID_HOME/platform-tools:$HOME/.emacs.d/bin:$ANDROID_HOME/emulator:$ANDROID_HOME/tools:$GOPATH/bin:$FLUTTER_HOME/bin:$BUN_INSTALL/bin:$PATH"
+export LDFLAGS="-L/opt/homebrew/opt/libpq/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/libpq/include"
+export PKG_CONFIG_PATH="/opt/homebrew/opt/libpq/lib/pkgconfig"
+
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH:$ANDROID_HOME/platform-tools:$HOME/.emacs.d/bin:$ANDROID_HOME/emulator:$ANDROID_HOME/tools:$GOPATH/bin:$FLUTTER_HOME/bin:$BUN_INSTALL/bin:$PATH"
