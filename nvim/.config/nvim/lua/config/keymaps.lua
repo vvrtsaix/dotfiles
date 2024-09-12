@@ -1,8 +1,5 @@
 vim.keymap.set({ "n", "v" }, "<Space>", "<Nop>", { silent = true })
 
-vim.api.nvim_set_keymap("n", "H", "^", { noremap = true })
-vim.api.nvim_set_keymap("n", "L", "$", { noremap = true })
-
 vim.keymap.set("n", "x", '"_x', { noremap = true, silent = true, desc = "Delete character without yanking" })
 vim.keymap.set("v", "p", '"_dP', { noremap = true, silent = true, desc = "Keep last yanked when pasting" })
 

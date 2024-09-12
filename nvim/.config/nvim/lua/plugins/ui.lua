@@ -5,10 +5,16 @@ return {
 		opts = {
 			options = {
 				tab_size = 20,
+				themable = true,
 				show_close_icon = false,
+				always_show_bufferline = true,
 				show_buffer_close_icons = false,
-				separator_style = { "", "" },
+				separator_style = { "|", "|" },
 				indicator = { style = "none" },
+				offsets = {},
+			},
+			highlights = {
+				separator = { fg = "#434C5E" },
 			},
 		},
 	},
