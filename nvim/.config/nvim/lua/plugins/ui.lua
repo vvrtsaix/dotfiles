@@ -68,7 +68,7 @@ return {
 				gitsigns = { enabled = false },
 				tmux = { enabled = true },
 				todo = { enabled = false },
-				kitty = { enabled = false, font = "+2" },
+				kitty = { enabled = true, font = "+2" },
 			},
 		},
 	},
