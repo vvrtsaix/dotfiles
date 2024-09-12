@@ -30,4 +30,3 @@ git clone git@github.com:vvrtsaix/dotfiles.git
 cd ~/dotfiles
 stow <module>
 ```
-
