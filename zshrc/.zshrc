@@ -18,7 +18,7 @@ alias cd="z"
 alias lg="lazygit"
 alias ld="lazydocker"
 
-alias up="~/.up.sh"
+alias up="~/.scripts/up.sh"
 
 alias vim="nvim"
 export EDITOR="nvim"
