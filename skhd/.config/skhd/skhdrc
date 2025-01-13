@@ -15,17 +15,6 @@ cmd - 5 : yabai -m space --focus 5
 cmd - 6 : yabai -m space --focus 6
 cmd - 7 : yabai -m space --focus 7
 
-# -- Modifying the Layout --
-
-# rotate layout clockwise
-shift + ctrl - r : yabai -m space --rotate 270
-
-# flip along y-axis
-shift + ctrl - y : yabai -m space --mirror y-axis
-
-# flip along x-axis
-shift + ctrl - x : yabai -m space --mirror x-axis
-
 # toggle window float
 shift + ctrl - t : yabai -m window --toggle float --grid 4:4:1:1:2:2
 
@@ -56,7 +45,6 @@ cmd + alt - l : yabai -m window --warp east
 shift + cmd - s : yabai -m window --display west; yabai -m display --focus west;
 shift + cmd - g : yabai -m window --display east; yabai -m display --focus east;
 
-
 # move window to prev and next space
 shift + ctrl - left : yabai -m window --space prev;
 shift + ctrl - right : yabai -m window --space next;
@@ -78,7 +66,7 @@ cmd + alt - s : yabai --start-service
 cmd + alt - r : yabai --restart-service
 
 # Open programs
-ctrl + alt + cmd - t : open /Applications/kitty.app
+ctrl + alt + cmd - t : open /Applications/Ghostty.app
 ctrl + alt + cmd - b : open /Applications/Arc.app
 ctrl + alt + cmd - h : open ~
 ctrl + alt + cmd - d : open ~/Downloads

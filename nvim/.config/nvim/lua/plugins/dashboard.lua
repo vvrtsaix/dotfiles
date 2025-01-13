@@ -1,6 +1,9 @@
 return {
 	"nvimdev/dashboard-nvim",
 	opts = function(_, opts)
+		if opts.config == nil then
+			return
+		end
 		local logo = [[
                                                                              
                ████ ██████           █████      ██                     

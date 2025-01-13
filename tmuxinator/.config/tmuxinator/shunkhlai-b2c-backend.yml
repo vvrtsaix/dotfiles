@@ -1,5 +1,5 @@
 name: shunkhlai-b2c-backend
-root: ~/ws/github.com/zerotechmn/shunkhlai-b2c-backend
+root: ~/tmp/shunkhlai-b2c-backend
 
 startup_window: editor
 
