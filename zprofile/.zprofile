@@ -22,4 +22,4 @@ export PKG_CONFIG_PATH="/opt/homebrew/opt/libpq/lib/pkgconfig"
 
 export CARGO_HOME="$HOME/.cargo"
 
-export PATH="/opt/homebrew/opt/libpq/bin:$PATH:$ANDROID_HOME/platform-tools:$HOME/.emacs.d/bin:$ANDROID_HOME/emulator:$ANDROID_HOME/tools:$GOPATH/bin:$FLUTTER_HOME/bin:$BUN_INSTALL/bin:$PATH:$CARGO_HOME/bin"
+export PATH="/opt/homebrew/opt/libpq/bin:$ANDROID_HOME/platform-tools:$HOME/.emacs.d/bin:$ANDROID_HOME/emulator:$ANDROID_HOME/tools:$GOPATH/bin:$FLUTTER_HOME/bin:$BUN_INSTALL/bin:$PATH:$CARGO_HOME/bin"

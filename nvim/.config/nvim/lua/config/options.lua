@@ -16,3 +16,5 @@ vim.opt.swapfile = false
 vim.opt.pumheight = 10
 vim.opt.conceallevel = 0
 vim.opt.cmdheight = 1
+
+vim.g.snacks_indent = false
