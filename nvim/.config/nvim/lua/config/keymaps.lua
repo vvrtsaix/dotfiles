@@ -11,8 +11,6 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz", { noremap = true, silent = true, desc = 
 vim.keymap.set("n", "n", "nzzzv", { noremap = true, silent = true, desc = "Find next and center" })
 vim.keymap.set("n", "N", "Nzzzv", { noremap = true, silent = true, desc = "Find previous and center" })
 
--- vim.keymap.set("n", "<leader>uz", require("zen-mode").toggle, { desc = "Toggle Zen Mode" })
-
 vim.keymap.set("n", "<C-h>", "<Cmd>NvimTmuxNavigateLeft<CR>")
 vim.keymap.set("n", "<C-j>", "<Cmd>NvimTmuxNavigateDown<CR>")
 vim.keymap.set("n", "<C-k>", "<Cmd>NvimTmuxNavigateUp<CR>")

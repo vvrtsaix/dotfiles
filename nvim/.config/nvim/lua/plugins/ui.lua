@@ -1,5 +1,18 @@
 return {
 	{
+		"snacks.nvim",
+		opts = {
+			indent = { enabled = false },
+			scroll = { enabled = false },
+		},
+	},
+	{
+		"folke/which-key.nvim",
+		opts = {
+			preset = "classic",
+		},
+	},
+	{
 		"akinsho/bufferline.nvim",
 		opts = {
 			options = {
@@ -48,31 +61,6 @@ return {
 						left_padding = 2,
 					},
 				},
-			},
-		},
-	},
-	{
-		"folke/zen-mode.nvim",
-		lazy = true,
-		event = "VeryLazy",
-		opts = {
-			window = {
-				backdrop = 0.95,
-				width = 200,
-				height = 1,
-			},
-			plugins = {
-				options = {
-					enabled = true,
-					ruler = false,
-					showcmd = false,
-					laststatus = 0,
-				},
-				twilight = { enabled = true },
-				gitsigns = { enabled = false },
-				tmux = { enabled = true },
-				todo = { enabled = false },
-				kitty = { enabled = true, font = "+2" },
 			},
 		},
 	},
