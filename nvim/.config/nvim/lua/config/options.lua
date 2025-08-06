@@ -18,3 +18,4 @@ vim.opt.conceallevel = 0
 vim.opt.cmdheight = 1
 
 vim.g.snacks_indent = false
+vim.g.snacks_animate = false

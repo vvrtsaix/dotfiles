@@ -1,0 +1,12 @@
+name: storek
+root: ~/ws/github.com/vvrtsaix/storek
+
+startup_window: editor
+
+windows:
+  - editor: vim .
+  - terminal:
+      layout: even-horizontal
+      panes:
+        - backend:
+        - mobile:

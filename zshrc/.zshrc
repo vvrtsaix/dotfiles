@@ -5,6 +5,7 @@ ZSH_THEME="robbyrussell"
 
 plugins=(
     git
+    git-open
     zsh-autosuggestions
     zsh-syntax-highlighting
     you-should-use
@@ -33,5 +34,11 @@ export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 source <(fzf --zsh)
 
+autoload -U compinit
+compinit
+source <(jj util completion zsh)
+
 # bun completions
 [ -s "/Users/aube/.bun/_bun" ] && source "/Users/aube/.bun/_bun"
+
+[[ "$TERM_PROGRAM" == "kiro" ]] && . "$(kiro --locate-shell-integration-path zsh)"
