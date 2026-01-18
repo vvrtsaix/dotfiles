@@ -29,16 +29,14 @@ alias tk="tmux kill-session"
 alias tl="tmux ls"
 alias ta="tmux attach -t"
 
-alias cat="$(which bat) --paging=never"
-export MANPAGER="sh -c 'col -bx | bat -l man -p'"
-
 source <(fzf --zsh)
 
 autoload -U compinit
 compinit
-source <(jj util completion zsh)
 
 # bun completions
 [ -s "/Users/aube/.bun/_bun" ] && source "/Users/aube/.bun/_bun"
 
-[[ "$TERM_PROGRAM" == "kiro" ]] && . "$(kiro --locate-shell-integration-path zsh)"
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion

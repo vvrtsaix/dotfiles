@@ -1,8 +1,0 @@
-name: absoluters
-root: ~/ws/gitlab.com/baby-sharks/absolute/mentorship
-
-startup_window: editor
-
-windows:
-  - editor: vim .
-  - terminal:

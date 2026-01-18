@@ -1,8 +1,0 @@
-name: abs_std
-root: ~/ws/gitlab.com/baby-sharks/absolute/mono
-
-startup_window: editor
-
-windows:
-  - editor: vim .
-  - terminal:

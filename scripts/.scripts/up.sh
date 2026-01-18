@@ -18,10 +18,3 @@ brew upgrade --cask
 
 printf "${SUCCESS_COLOR}Brew update complete!${RESET_COLOR}\n"
 
-printf "${TEXT_COLOR}Yabai: Reloading configuration...${RESET_COLOR}\n"
-yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
-
-printf "${TEXT_COLOR}Yabai: Restarting service...${RESET_COLOR}\n"
-sudo yabai --load-sa && yabai --restart-service
-
-printf "${SUCCESS_COLOR}Yabai: Done!${RESET_COLOR}\n"

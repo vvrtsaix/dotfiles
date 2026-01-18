@@ -1,8 +1,0 @@
-name: gs-service-system
-root: ~/ws/github.com/zerotechmn/gs-service-system
-
-startup_window: editor
-
-windows:
-  - editor: vim .
-  - terminal:
