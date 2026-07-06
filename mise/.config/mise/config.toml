@@ -1,0 +1,12 @@
+[tools]
+deno = "latest"
+go = "latest"
+java = "temurin"
+node = "lts"
+npm = "latest"
+php = "8.5.8"
+python = "latest"
+rust = "latest"
+usage = "latest"
+uv = "latest"
+pnpm = "latest"

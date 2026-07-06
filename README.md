@@ -15,6 +15,7 @@ git clone git@github.com:vvrtsaix/dotfiles.git ~/dotfiles
 - `tmux` — tmux config (no plugins)
 - `ghostty` — [Ghostty](https://ghostty.org/) terminal
 - `yazi` — [yazi](https://github.com/sxyazi/yazi) file manager
+- `mise` — [mise](https://mise.jdx.dev/) tool versions
 - `scripts` — helper scripts in `~/.scripts`
 
 ## Requirements
@@ -23,6 +24,7 @@ git clone git@github.com:vvrtsaix/dotfiles.git ~/dotfiles
 - [tmux](https://github.com/tmux/tmux)
 - [ghostty](https://ghostty.org/)
 - [yazi](https://github.com/sxyazi/yazi)
+- [mise](https://mise.jdx.dev/)
 - [fzf](https://github.com/junegunn/fzf)
 - [zoxide](https://github.com/ajeetdsouza/zoxide)
 - [omz](https://ohmyz.sh/)
