@@ -11,10 +11,9 @@ printf "${TEXT_COLOR}Checking for outdated packeges...${RESET_COLOR}\n"
 brew outdated
 
 printf "${TEXT_COLOR}Upgrading outdated packages...${RESET_COLOR}\n"
-brew upgrade
+brew upgrade -y
 
 printf "${TEXT_COLOR}Upgrading outdated casks (applications)...${RESET_COLOR}\n"
-brew upgrade --cask
+brew upgrade --cask -y
 
 printf "${SUCCESS_COLOR}Brew update complete!${RESET_COLOR}\n"
-

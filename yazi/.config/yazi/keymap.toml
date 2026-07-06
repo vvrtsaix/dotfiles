@@ -1,0 +1,9 @@
+[[mgr.prepend_keymap]]
+on = "<Enter>"
+run = 'shell --orphan "if [ -d \"$0\" ]; then open -a ${TERM_PROGRAM:-Terminal} \"$0\"; else ya emit open; fi"'
+desc = "Open Terminal for hovered folder, otherwise default open"
+
+[[mgr.prepend_keymap]]
+on = [ "o", "p" ]
+run = 'shell --block "if [ -d \"$0\" ]; then cd -- \"$0\"; else cd -- \"$(dirname -- \"$0\")\"; fi; exec pi"'
+desc = "Open Pi in hovered folder or file parent"
